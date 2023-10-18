@@ -22,7 +22,7 @@ jobs:
           outputs: dist/snake.svg
 
       - name: push snake.svg to the output branch
-        uses: damarsasiwilogo/damarsasiwilogo@main
+        uses: damarsasiwilogo/damarsasiwilogo@output
         with:
           target_branch: output
           build_dir: dist
