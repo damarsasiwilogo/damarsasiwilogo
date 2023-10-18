@@ -16,13 +16,13 @@ jobs:
 
     steps:
       - name: generate snake.svg
-        uses: damarsasiwilogo/damarsasiwilogo/svg-only@v2
+        uses: damarsasiwilogo/damarsasiwilogo@main
         with:
           github_user_name: damarsasiwilogo
           outputs: dist/snake.svg
 
       - name: push snake.svg to the output branch
-        uses: damarsasiwilogo/ghaction-github-pages@v2.6.0
+        uses: damarsasiwilogo/damarsasiwilogo@main
         with:
           target_branch: output
           build_dir: dist
