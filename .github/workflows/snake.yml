@@ -8,21 +8,22 @@ on:
 
   push:
     branches:
-      - main
+    - master
 
 jobs:
   generate:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: generate snake.svg
-        uses: damarsasiwilogo/damarsasiwilogo@main
+        uses: Platane/snk/svg-only@v2
         with:
-          github_user_name: damarsasiwilogo
+          github_user_name: ${{ github.repository_owner }}
           outputs: dist/snake.svg
 
+
       - name: push snake.svg to the output branch
-        uses: damarsasiwilogo/damarsasiwilogo@output
+        uses: crazy-max/ghaction-github-pages@v2.6.0
         with:
           target_branch: output
           build_dir: dist
