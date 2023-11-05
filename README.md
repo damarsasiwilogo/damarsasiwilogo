@@ -47,11 +47,15 @@
 </div>
 
 ###
+
 <div align="center">
   <img src="https://profile-counter.glitch.me/damarsasiwilogo/count.svg?"  />
 </div>
+
 ###
+
 <!-- <br clear="both">
 <img src="https://raw.githubusercontent.com/damarsasiwilogo/damarsasiwilogo/output/snake.svg" alt="Snake animation" />
 -->
+
 ###
