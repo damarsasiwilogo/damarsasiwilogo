@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Damarsasi Wilogo and I'm a software engineer student, from Indonesia</h2>
+<h2 align="left">Hi 👋! My name is Damarsasi Wilogo and I'm a Fullstack Web Developer, from Indonesia</h2>
 
 ###
 
